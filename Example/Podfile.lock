@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MFNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MFNetWorking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MFNetWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MFNetWorking: e7f6c1ece1095017b2782200bcc03529b6e19ad8
+
+PODFILE CHECKSUM: 7ce5252da2aa7c062607e8c13bc6784a6867c84f
+
+COCOAPODS: 1.5.3

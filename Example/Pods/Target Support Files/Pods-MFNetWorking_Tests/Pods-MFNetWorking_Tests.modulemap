@@ -1,0 +1,6 @@
+framework module Pods_MFNetWorking_Tests {
+  umbrella header "Pods-MFNetWorking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
