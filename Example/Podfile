@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MFNetWorking_Example' do
+  pod 'MFNetWorking', :path => '../'
+
+  target 'MFNetWorking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
